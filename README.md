@@ -26,7 +26,7 @@ Make sure that you run `npm install` first.
 
 In one terminal instance run `npm start`, and in a second terminal instance run `npm run test:watch`. This will start your Webpack Dev Server and your test suite that watches your code. Open the web browser and go to the port specified in the Webpack Dev Server. (ex. http://localhost:8080)
 
->Note: If you're using the Learn IDE, you can use [jobs](https://help.learn.co/hc/en-us/articles/229922347-Running-multiple-processes-in-the-IDE-terminal) rather than multiple terminals. 
+>Note: If you're using the Learn IDE, you can use [jobs](http://help.learn.co/the-learn-ide/common-ide-questions/running-multiple-processes-in-the-ide-terminal) rather than multiple terminals. 
 
 ## But Where Do I Write My Code?
 
