@@ -2,12 +2,12 @@
   "stats": {
     "suites": 6,
     "tests": 4,
-    "passes": 1,
+    "passes": 2,
     "pending": 0,
-    "failures": 3,
-    "start": "2017-10-02T17:30:49.866Z",
-    "end": "2017-10-02T17:30:49.989Z",
-    "duration": 123
+    "failures": 2,
+    "start": "2017-10-02T17:31:26.993Z",
+    "end": "2017-10-02T17:31:27.043Z",
+    "duration": 50
   },
   "tests": [
     {
@@ -22,10 +22,7 @@
       "fullTitle": "movie actions deleting a movie returns the delete movies action",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "TypeError: (0 , _actions.deleteMovie) is not a function\n    at Context.<anonymous> (test/index-test.js:17:20)",
-        "message": "(0 , _actions.deleteMovie) is not a function"
-      }
+      "err": {}
     },
     {
       "title": "returns the update username action",
@@ -51,16 +48,6 @@
   "pending": [],
   "failures": [
     {
-      "title": "returns the delete movies action",
-      "fullTitle": "movie actions deleting a movie returns the delete movies action",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "TypeError: (0 , _actions.deleteMovie) is not a function\n    at Context.<anonymous> (test/index-test.js:17:20)",
-        "message": "(0 , _actions.deleteMovie) is not a function"
-      }
-    },
-    {
       "title": "returns the update username action",
       "fullTitle": "username actions updating a username returns the update username action",
       "duration": 0,
@@ -85,6 +72,13 @@
     {
       "title": "returns the add movies action",
       "fullTitle": "movie actions adding a movie returns the add movies action",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns the delete movies action",
+      "fullTitle": "movie actions deleting a movie returns the delete movies action",
       "duration": 0,
       "currentRetry": 0,
       "err": {}

@@ -16,3 +16,9 @@ export function deleteMovie(movie) {
     }
   }
 }
+
+export function updateUsername() {
+  return {
+    type: 'UPDATE_USERNAME',
+  }
+}
