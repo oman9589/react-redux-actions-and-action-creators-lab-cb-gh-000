@@ -24,7 +24,7 @@ export function updateUsername(newName) {
   }
 }
 
-export function updateUsername() {
+export function resetUsername() {
   return {
     type: 'RESET_USERNAME',
     username: 'default'
