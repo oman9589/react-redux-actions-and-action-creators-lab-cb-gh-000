@@ -26,6 +26,6 @@ export function updateUsername(newName) {
 
 export function updateUsername() {
   return {
-    type: 'RESET_USERNAME',
+    type: 'RESET_USERNAME'
   }
 }
