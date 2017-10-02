@@ -5,9 +5,9 @@
     "passes": 0,
     "pending": 0,
     "failures": 4,
-    "start": "2017-10-02T17:29:03.343Z",
-    "end": "2017-10-02T17:29:03.396Z",
-    "duration": 53
+    "start": "2017-10-02T17:30:09.338Z",
+    "end": "2017-10-02T17:30:09.460Z",
+    "duration": 122
   },
   "tests": [
     {
@@ -33,7 +33,7 @@
     {
       "title": "returns the update username action",
       "fullTitle": "username actions updating a username returns the update username action",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "stack": "TypeError: (0 , _actions.updateUsername) is not a function\n    at Context.<anonymous> (test/index-test.js:27:20)",
@@ -76,7 +76,7 @@
     {
       "title": "returns the update username action",
       "fullTitle": "username actions updating a username returns the update username action",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "stack": "TypeError: (0 , _actions.updateUsername) is not a function\n    at Context.<anonymous> (test/index-test.js:27:20)",

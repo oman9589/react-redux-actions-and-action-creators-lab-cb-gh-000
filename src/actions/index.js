@@ -2,6 +2,8 @@
 export function addMovie(movie){
   return {
     type: 'ADD_MOVIE',
-    title: movie.title
+    movie: {
+      title: movie.title
+    }
   }
 }
