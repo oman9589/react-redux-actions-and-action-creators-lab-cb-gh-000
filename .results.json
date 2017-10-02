@@ -5,19 +5,22 @@
     "passes": 0,
     "pending": 0,
     "failures": 4,
-    "start": "2017-10-02T17:24:48.404Z",
-    "end": "2017-10-02T17:24:48.555Z",
-    "duration": 151
+    "start": "2017-10-02T17:28:48.567Z",
+    "end": "2017-10-02T17:28:48.715Z",
+    "duration": 148
   },
   "tests": [
     {
       "title": "returns the add movies action",
       "fullTitle": "movie actions adding a movie returns the add movies action",
-      "duration": 0,
+      "duration": 3,
       "currentRetry": 0,
       "err": {
-        "stack": "TypeError: (0 , _actions.addMovie) is not a function\n    at Context.<anonymous> (test/index-test.js:8:20)",
-        "message": "(0 , _actions.addMovie) is not a function"
+        "stack": "Error: Expected 'addMovie' to equal 'ADD_MOVIE'\n    at assert (node_modules/expect/lib/assert.js:29:9)\n    at Expectation.toEqual (node_modules/expect/lib/Expectation.js:81:30)\n    at Context.<anonymous> (test/index-test.js:9:27)",
+        "message": "Expected 'addMovie' to equal 'ADD_MOVIE'",
+        "actual": "addMovie",
+        "expected": "ADD_MOVIE",
+        "showDiff": true
       }
     },
     {
@@ -56,11 +59,14 @@
     {
       "title": "returns the add movies action",
       "fullTitle": "movie actions adding a movie returns the add movies action",
-      "duration": 0,
+      "duration": 3,
       "currentRetry": 0,
       "err": {
-        "stack": "TypeError: (0 , _actions.addMovie) is not a function\n    at Context.<anonymous> (test/index-test.js:8:20)",
-        "message": "(0 , _actions.addMovie) is not a function"
+        "stack": "Error: Expected 'addMovie' to equal 'ADD_MOVIE'\n    at assert (node_modules/expect/lib/assert.js:29:9)\n    at Expectation.toEqual (node_modules/expect/lib/Expectation.js:81:30)\n    at Context.<anonymous> (test/index-test.js:9:27)",
+        "message": "Expected 'addMovie' to equal 'ADD_MOVIE'",
+        "actual": "addMovie",
+        "expected": "ADD_MOVIE",
+        "showDiff": true
       }
     },
     {

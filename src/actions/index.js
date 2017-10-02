@@ -1,6 +1,6 @@
 // define your actions here!
 export function addMovie(){
   return {
-    type: 'addMovie'
+    type: 'ADD_MOVIE'
   }
 }
