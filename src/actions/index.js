@@ -17,9 +17,9 @@ export function deleteMovie(movie) {
   }
 }
 
-export function updateUsername(username) {
+export function updateUsername(newName) {
   return {
     type: 'UPDATE_USERNAME'
-    username: username
+    username: newName
   }
 }
